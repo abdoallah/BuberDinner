@@ -13,9 +13,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuberDinner.Domain", "Buber
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuberDinner.Infrastructure", "BuberDinner.Infrastructure\BuberDinner.Infrastructure.csproj", "{3810661F-AF27-4C35-B95D-281941961216}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Requests", "Requests", "{92F65B9C-1DC3-411D-85BC-EF1050FDD0C4}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{8B37089E-9326-43B3-B3BC-6C42E3A83F6D}"
 	ProjectSection(SolutionItems) = preProject
-		GetForcat.http = GetForcat.http
+		api.md = api.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Requests", "Requests", "{0FE4991A-043B-4553-8BB3-BF71E5677EDD}"
+	ProjectSection(SolutionItems) = preProject
+		auth.http = auth.http
 	EndProjectSection
 EndProject
 Global
